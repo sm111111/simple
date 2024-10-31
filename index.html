@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <div class="header-name">add icon</div>
+                </li>
+                <div class="navbar1">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#intro">Intro</a></li> 
+                    <li><a href="#Services">Our Services</a></li>
+                    <li><a href="#Experts">Our Experts</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </div>
+                <div class="navbar2">
+                    <li><a href="#"><i class="bi bi-telephone-plus"></i></a></li>
+                    <li><a href="#"><i class="bi bi-chat-left-dots"></i></a></li>
+                    <li><i class="bi bi-gear" id="changetheme"></i></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro">
+            <p class="intro-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p class="intro-2">Drive your startup forward</p>
+            <p class="intro-3">With growth hacking expertise!</p>
+            <br>
+            <div class="intro-container">
+                <div class="intro-center">
+                    <button class="intro-button" id="themeChange"><i class="bi bi-broadcast" ></i></button>
+                </div>
+            </div>
+            <div class="intro-wave">
+            <div class="intro-left"></div>
+            <div class="intro-rigth"></div>
+        </div>
+        </div>
+
+        <div class="multiple-container" id="intro">
+            <div class="multiple-container-center">
+                <div class="multiple-container-center-one">
+                    <div class="m-item1"></div>
+                    <div class="m-item1-center">
+                        <div class="m-item2"></div>
+                        <div class="m-item3"></div>
+                    </div>
+                </div>
+                <div class="multiple-container-center-two">
+                    <div class="multiple-container-center-one">
+                        <div class="m-item-centers">
+                            <div class="m-items"></div>
+                            <div class="m-items1"></div>
+                        </div>
+                        <div class="m-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="Services">
+            <div class="card-container">
+                <div class="card-text-box">
+                    <p class="card-content"><strong>Lorem:</strong> ipsum dolor sit, amet elit. Voluptatem, sequi?</p>
+                </div>
+                <div class="cards">
+                    <div class="card1">
+                        <div class="card-details">
+                            <button class="card-details-button"><i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="card-details">
+                            <button class="card-details-button"><i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="explore">
+            <div class="explore-container">
+                <div class="explore-content">
+                    <span class="explore-access">Explore our case services</span>
+                </div>
+                <br>
+                <div class="explore-boxes">
+                    <div class="explore-box1">
+                        <button class="explore-heart"><i class="bi bi-heart"></i></button>
+                        <div class="explore-info">
+                            <section>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia laboriosam suscipit
+                                iure commodi sapiente ducimus,
+                            </section>
+                        </div>
+                    </div>
+                    <div class="explore-box2">
+                        <div class="explore-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="expert" id="Experts">
+            <div class="expert-name">
+                <span>Meet our expert</span>
+            </div>
+            <div class="expert-container" id="ani">
+                <div class="expert-center">
+                    <div class="box" id="box1"></div>
+                    <div class="box" id="box2"></div>
+                    <div class="box" id="box3"></div>
+                    <div class="box" id="box4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="contact-center">
+                <form action="#" method="post">
+                    <h1 class="contact-name">Contact Us</h1>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button class="contact-button" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#"><i class="bi bi-shield-lock"></i> Privacy Policy</a></li>
+            <li><a href="#"><i class="bi bi-file-earmark-text"></i> Terms of Service</a></li>
+            <li><a href="#"><i class="bi bi-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</body>
+</html>
